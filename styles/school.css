@@ -69,3 +69,36 @@ font-weight: 600;
 
 
 /* bannar styles */
+.bannar{
+    padding: 30px;
+    margin-top: 80px;
+}
+.bannar-start{
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+
+.bannar-contant{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.span{
+    color: orange;
+}
+.span-btn{
+color: skyblue;
+}
+
+.btn-primary{
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+
+
