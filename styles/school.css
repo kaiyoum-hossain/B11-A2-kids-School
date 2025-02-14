@@ -102,3 +102,40 @@ color: skyblue;
 
 
 
+/* responsive media quary */
+
+
+@media screen and (max-width:576px){
+    .nav-links, .brand, .btn{
+        display: none;
+    }
+
+.section-title{
+    flex-direction: column-reverse;
+}
+
+.images{
+    width: 100px;
+   
+}
+.bannar-start{
+    font-size: 20px;
+ text-align: center;
+ margin-top: -80px;
+
+}
+
+.bannar-contant{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 80px;
+    margin-right: -140px;
+    margin-top: -10px;
+}
+.btn-primary{
+    margin-left: 100px;
+}
+
+
+
+}
