@@ -88,7 +88,9 @@ font-weight: 600;
 .span-btn{
 color: skyblue;
 }
-
+.images{
+    margin-left: 60px;
+}
 .btn-primary{
     background-color: black;
     color: #FFFFFF;
@@ -178,15 +180,18 @@ color: skyblue;
 /* main section styles */
 
 
+
+
 .box-styles{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+  
 }
 
 .box{
-    background-color:aqua;
+    background-color:#f5edff;
     border-radius: 10px;
   
 }
@@ -296,6 +301,10 @@ color: skyblue;
    text-align: center;
  
 }
+
+.footer{
+font-size: 24px;
+}
 .footer-contants{
     width: 33.3%;
 }
@@ -343,6 +352,7 @@ color: #DEF5FF;
 }
 .icons img{
     margin-left: 20px;
+   
 }
 
 
@@ -380,7 +390,7 @@ color: #DEF5FF;
 
 .images{
     width: 100px;
-   
+   margin-left: 0;
 }
 .bannar-start{
     font-size: 20px;
